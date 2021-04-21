@@ -1,0 +1,7 @@
+ filter=lfs diff=lfs merge=lfs -text
+train.csv filter=lfs diff=lfs merge=lfs -text
+sudo[[:space:]]git[[:space:]]lfs[[:space:]]track[[:space:]]train.csv
+sudo[[:space:]]git[[:space:]]add[[:space:]].gitattributes
+sudo[[:space:]]git[[:space:]]lfs[[:space:]]track[[:space:]]train.csv filter=lfs diff=lfs merge=lfs -text
+descargas/train.csv filter=lfs diff=lfs merge=lfs -text
+home/usuario/Descargas/train.csv filter=lfs diff=lfs merge=lfs -text
